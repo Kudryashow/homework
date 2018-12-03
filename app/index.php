@@ -83,10 +83,25 @@
 
 <div class="block">
   <div class="feedback crosslayer"></div>
-  <div class="row">
-    <div class="col"></div>
-    <div class="col"></div>
-    <div class="col"></div>
+  <div class="carousel slide">
+    <div class="carousel-inner carousel-item">enim velit corrupti</div>
+    <div class="carousel-inner carousel-item">eum et eius</div>
+    <div class="carousel-inner carousel-item">blanditiis sequi excepturi</div>
+    <div class="carousel-inner carousel-item">commodi ipsam ut</div>
+    <div class="carousel-inner carousel-item">saepe libero voluptatum</div>
+    <div class="carousel-inner carousel-item">dolores ut consequatur</div>
+    <div class="carousel-inner carousel-item">necessitatibus exercitationem fugiat</div>
+    <div class="carousel-inner carousel-item">quod autem est</div>
+    <div class="carousel-inner carousel-item">quibusdam dolor accusantium</div>
+    <div class="carousel-inner carousel-item">nesciunt magnam non</div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 </div>
 
