@@ -10,7 +10,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/main.css" type="text/css">
+  <link rel="stylesheet" href="/css/main.min.css" type="text/css">
   <title>My project</title>
 </head>
 <body>
@@ -34,29 +34,42 @@
     </nav>
 
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
+      <div class="carousel-inner align-items-center">
         <div class="carousel-item active">
-          <div class="inner-slide myborder">
+          <div class="inner-slide m-5 p-2 myborder text-white text-center align-middle">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore necessitatibus, sunt quidem fugiat vero veritatis.
           </div>
         </div>
         <div class="carousel-item">
-          <div class="inner-slide myborder">
+          <div class="inner-slide m-5 p-2 myborder align-middle">
             <h2 class="font-weight-bold text-uppercase text-center text-white">The best services</h2>
             <p class="text-white">We provide the best services in the world. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ipsa incidunt deserunt at beatae.</p>
+            <button type="button" class="btn btn-light out-border">Clickme</button>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <a class="carousel-control-prev carousel-control" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <a class="carousel-control-next carousel-control" href="#carouselExampleControls" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
       </a>
   </div>
 
+</div>
+
+<div>
+  <div class="row">
+    <div class="col-sm book image"></div>
+    <div class="col-sm book pl-5 pt-4 pb-1">
+      <h2>Lorem ipsum dolor sit.</h2>
+      <p class="text-left font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt dignissimos enim unde iste minus, debitis atque harum. Labore deleniti velit saepe perspiciatis ut natus. Alias vero nulla quidem earum nesciunt facilis, ex ad, harum reiciendis quisquam aliquid in iste.</p>
+      <p class="text-left font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio mollitia dolor odio perspiciatis! Corporis, neque tempore repellendus iusto consectetur illum adipisci eos sed. Adipisci libero optio odio facere quia voluptatibus quos esse consectetur, nulla totam corrupti, porro aut explicabo doloremque.</p>
+      <button class="btn btn-primary">Read more details</button>
+    </div>
+  </div>
 </div>
 
 </body>

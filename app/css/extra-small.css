@@ -1,0 +1,52 @@
+  .header{
+    background: url(/img/bckg-1.jpg) no-repeat;
+    height: auto;
+    background-size:100%;
+  }
+  .navbar{
+    width: 100%;
+    padding: 5px 0;
+  }
+  .navlink{
+    color:white
+  }a
+  .navlink:hover{
+    color: #127e8e
+  }
+  .nav-item.active>a{
+    color: #127e8e
+  }
+  .myborder{
+    padding:2px 5px;
+    box-shadow: 0px 0px 0.1px 0px #ffffff;
+  }
+  .carousel-item{
+    min-height: 200px;
+  }
+  .carousel-inner{
+    height: 298px;
+  }
+  .carousel-control{
+    max-height: 245px;
+  }
+  button.out-border{
+    position: relative;
+    top: 20px;
+    left: 39%;
+    width: 25%;
+  }
+  div.book.image{
+    background-image: url(/img/bckg-2.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  .container{
+    margin:0;
+  }
+  body{
+    margin: 0;
+  }
+  .row{
+    margin: 0;
+  }

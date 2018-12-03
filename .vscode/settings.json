@@ -7,7 +7,7 @@
   "liveServer.settings.proxy": {
       "enable": true,                             //   i. enabled
       "baseUri": "/",                             //  ii. workspace
-      "proxyUri": "http://127.0.0.1/" // iii. actual address
+      "proxyUri": "http://project.local/" // iii. actual address
   },
   "liveServer.settings.multiRootWorkspaceName": "dev.local",
 }
