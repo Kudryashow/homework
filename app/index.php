@@ -187,7 +187,7 @@
 
   <div class="footer">
     <div class="row p-3">
-      <div class="col-sm-4">
+      <div class="col-lg-3 col-4">
         <nav class="nav flex-column">
           <a href="#" class="bigger font-weight-bold text-light ">PRODUCTS</a>
           <a class="nav-link text-light" href="#">Link</a>
@@ -196,7 +196,7 @@
           <a class="nav-link text-light" href="#">Link</a>
         </nav>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-3 col-4">
         <nav class="nav flex-column">
           <a href="#" class="bigger font-weight-bold text-light ">LEARN</a>
           <a class="nav-link text-light" href="#">Link</a>
@@ -205,7 +205,7 @@
           <a class="nav-link text-light" href="#">Link</a>
         </nav>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-3 col-4">
         <nav class="nav flex-column">
           <a href="#" class="bigger font-weight-bold text-light ">COMPANY</a>
           <a class="nav-link text-light" href="#">Link</a>
@@ -214,26 +214,23 @@
           <a class="nav-link text-light" href="#">Link</a>
         </nav>
       </div>
-      <div class="col-sm-4">
+      <div class="col-lg-3 ">
         <div id="quote-form">
           <form class="form-inline">
             <div class="form-group custom">
-              <input type="text" placeholder="You email" id="but-1" class="form-control subscribe" id="name" placeholder="You name">
+              <input type="text" placeholder="You email" id="but-1" class="form-control subscribe" id="name"
+                placeholder="You name">
               <button type="submit" id="but-3" class="btn subscribe">Subscribe</button>
             </div>
           </form>
         </div>
-        <div class='col-sm-4 social'>
+        <div class='social'>
           <ul class="nav">
-            <li class="nav-item"><a href="#" class="facebook"><img src="/img/soc.png" alt="facebook"></a></li>
-            <li class="nav-item"><a href="#" class="instagram"><img src="/img/soc.png" alt="instagram"></a></li>
-            <li class="nav-item"><a href="#" class="gmail"><img src="/img/soc.png" alt="gmail"></a></li>
-            <li class="nav-item"><a href="#" class="vk"><img src="/img/soc.png" alt="vk"></a></li>
+            <li><a href="#" class="facebook nav-link"><img src="/img/soc.png" alt="facebook"></a></li>
+            <li><a href="#" class="instagram nav-link"><img src="/img/soc.png" alt="instagram"></a></li>
+            <li><a href="#" class="gmail nav-link"><img src="/img/soc.png" alt="gmail"></a></li>
+            <li><a href="#" class="vk nav-link"><img src="/img/soc.png" alt="vk"></a></li>
           </ul>
-          
-          
-          
-          
         </div>
       </div>
     </div>

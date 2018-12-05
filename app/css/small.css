@@ -194,7 +194,7 @@
   }
 
   #quote-form {
-    padding: 0px 0px 35px 0
+    padding: 20px 0px 20px 0;
   }
 
   .form-group.custom>input,
@@ -230,27 +230,39 @@
   #but-3 {
     border: 1px solid white;
   }
-  .footer{
+
+  .footer {
     background-color: #3d3d3d;
+    text-align: center;
   }
-  .frm{
+
+  .frm {
     margin: auto;
   }
-  .social>.nav{
+
+  .social>.nav {
     width: auto;
+    display: inline-flex;
   }
-  .social>.nav>li>a>img{
+
+  .social>.nav>li>a>img {
     width: 50px;
     height: 50px;
   }
-  .subscribe.form-control#but-1{
+
+  .subscribe.form-control#but-1 {
     color: #c1c1c1;
     background-color: #2e2e2e;
     border: 0;
   }
-  .btn.subscribe#but-3{
+
+  .btn.subscribe#but-3 {
     color: white;
     background-color: #0072bc;
-    border:0;
+    border: 0;
+  }
+
+  .social {
+    margin: auto;
   }
 }
